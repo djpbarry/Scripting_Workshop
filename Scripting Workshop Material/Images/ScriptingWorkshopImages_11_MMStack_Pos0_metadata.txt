@@ -1,0 +1,1538 @@
+{
+"Summary": {
+  "ChannelGroup": "Channel",
+  "Slices": 1,
+  "ChNames": [
+    "DAPI",
+    "FITC",
+    "Cy3"
+  ],
+  "UserName": "barryd",
+  "AxisOrder": [
+    "z",
+    "channel",
+    "position",
+    "time"
+  ],
+  "UserData": {
+    "IJType": {
+      "PropVal": "1",
+      "PropType": "String"
+    },
+    "GridRow": {
+      "PropVal": "0",
+      "PropType": "String"
+    },
+    "Comment": {
+      "PropVal": "",
+      "PropType": "String"
+    },
+    "UUID": {
+      "PropVal": "2d333d6b-844b-4c2c-969d-30261af71973",
+      "PropType": "String"
+    },
+    "Height": {
+      "PropVal": "1200",
+      "PropType": "String"
+    },
+    "GridColumn": {
+      "PropVal": "0",
+      "PropType": "String"
+    },
+    "CameraTimeout": {
+      "PropVal": "20000",
+      "PropType": "String"
+    },
+    "Depth": {
+      "PropVal": "2",
+      "PropType": "String"
+    },
+    "BitDepth": {
+      "PropVal": "12",
+      "PropType": "String"
+    },
+    "KeepShutterOpenChannels": {
+      "PropVal": "false",
+      "PropType": "String"
+    },
+    "PixelType": {
+      "PropVal": "GRAY16",
+      "PropType": "String"
+    },
+    "Source": {
+      "PropVal": "Micro-Manager",
+      "PropType": "String"
+    },
+    "TimeFirst": {
+      "PropVal": "false",
+      "PropType": "String"
+    },
+    "ChColors": {
+      "PropVal": "[-16776961,-16724992,-3394816]",
+      "PropType": "String"
+    },
+    "SlicesFirst": {
+      "PropVal": "true",
+      "PropType": "String"
+    },
+    "Width": {
+      "PropVal": "1920",
+      "PropType": "String"
+    },
+    "Positions": {
+      "PropVal": "1",
+      "PropType": "String"
+    },
+    "ROI": {
+      "PropVal": "[0,0,1920,1200]",
+      "PropType": "String"
+    }
+  },
+  "Frames": 1,
+  "Prefix": "ScriptingWorkshopImages_11",
+  "KeepShutterOpenChannels": false,
+  "Channels": 3,
+  "ComputerName": "3ML8ZZ1",
+  "ProfileName": "Default user",
+  "CustomIntervals_ms": [],
+  "KeepShutterOpenSlices": false,
+  "MetadataVersion": "11.0.0",
+  "z-step_um": 0,
+  "StartTime": "2018-03-23 11:25:37 +0000",
+  "IntendedDimensions": {
+    "position": 1,
+    "time": 1,
+    "z": 1,
+    "channel": 3
+  },
+  "Positions": 1,
+  "WaitInterval": 0,
+  "Directory": "D:\\barryd",
+  "MicroManagerVersion": "2.0.0-beta3 20170227"
+},
+"FrameKey-0-0-0": {
+  "HamamatsuHam_DCAM-TRIGGER SOURCE": {
+    "PropVal": "INTERNAL",
+    "PropType": "String"
+  },
+  "Core-Focus": {
+    "PropVal": "ZeissFocusAxis",
+    "PropType": "String"
+  },
+  "Core-Initialize": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "COM1-Verbose": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Label": {
+    "PropVal": "1-TL_Brightfield",
+    "PropType": "String"
+  },
+  "FrameIndex": 0,
+  "HamamatsuHam_DCAM-PixelType": {
+    "PropVal": "16bit",
+    "PropType": "String"
+  },
+  "COM1-Description": {
+    "PropVal": "Serial port driver (boost:asio)",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Description": {
+    "PropVal": "Zeiss Transmitted Light Shutter",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Description": {
+    "PropVal": "Zeiss Reflected Light Shutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE": {
+    "PropVal": "EXPOSURE",
+    "PropType": "String"
+  },
+  "ROI": "0-0-1920-1200",
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD": {
+    "PropVal": "0.0010",
+    "PropType": "String"
+  },
+  "COM1-AnswerTimeout": {
+    "PropVal": "500.0000",
+    "PropType": "String"
+  },
+  "Camera": "HamamatsuHam_DCAM",
+  "scopeDataKeys": [
+    "HamamatsuHam_DCAM-TRIGGER SOURCE",
+    "Core-Focus",
+    "Core-Shutter",
+    "ZeissCondenserContrast-State",
+    "Core-Initialize",
+    "COM1-Verbose",
+    "ZeissReflectorTurret-Name",
+    "Core-Camera",
+    "Core-SLM",
+    "Core-TimeoutMs",
+    "ZeissCondenserContrast-Label",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS",
+    "HamamatsuHam_DCAM-PixelType",
+    "ZeissObjectiveTurret-Description",
+    "COM1-Handshaking",
+    "COM1-Description",
+    "ZeissTransmittedLightShutter-Description",
+    "ZeissCondenserContrast-Name",
+    "ZeissReflectedLightShutter-Description",
+    "Core-ChannelGroup",
+    "HamamatsuHam_DCAM-SENSOR MODE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD",
+    "ZeissReflectorTurret-State",
+    "COM1-AnswerTimeout",
+    "ZeissReflectorTurret-Description",
+    "HamamatsuHam_DCAM-TRIGGER ACTIVE",
+    "ZeissHalogenLamp-Name",
+    "HamamatsuHam_DCAM-DEFECT CORRECT MODE",
+    "HamamatsuHam_DCAM-Name",
+    "Core-ImageProcessor",
+    "ZeissReflectedLightShutter-State",
+    "HamamatsuHam_DCAM-ReadoutTime",
+    "HamamatsuHam_DCAM-Driver Version",
+    "HamamatsuHam_DCAM-Module Version",
+    "HamamatsuHam_DCAM-TRIGGER DELAY",
+    "COM1-DataBits",
+    "ZeissScope-Description",
+    "HamamatsuHam_DCAM-Camera Bus",
+    "ZeissObjectiveTurret-Label",
+    "Core-AutoShutter",
+    "HamamatsuHam_DCAM-EXPOSURE FULL RANGE",
+    "ZeissFocusAxis-Position",
+    "ZeissFocusAxis-Move Mode",
+    "ZeissTransmittedLightShutter-State",
+    "ZeissTransmittedLightShutter-Name",
+    "HamamatsuHam_DCAM-Binning",
+    "ZeissHalogenLamp-Volt",
+    "Core-XYStage",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS",
+    "HamamatsuHam_DCAM-EXPOSURE TIME UNITS",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY",
+    "ZeissReflectedLightShutter-Name",
+    "COM1-DelayBetweenCharsMs",
+    "ZeissScope-Port",
+    "ZeissScope-Name",
+    "COM1-Parity",
+    "ZeissCondenserAperture-Name",
+    "HamamatsuHam_DCAM-TransposeXY",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY",
+    "ZeissHalogenLamp-Description",
+    "HamamatsuHam_DCAM-Exposure",
+    "HamamatsuHam_DCAM-CONTRAST GAIN",
+    "ZeissScope-AnswerTimeOut",
+    "COM1-StopBits",
+    "HamamatsuHam_DCAM-TriggerPolarity",
+    "HamamatsuHam_DCAM-Trigger",
+    "Core-AutoFocus",
+    "COM1-BaudRate",
+    "ZeissCondenserContrast-Description",
+    "HamamatsuHam_DCAM-Description",
+    "HamamatsuHam_DCAM-TransposeMirrorX",
+    "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT",
+    "HamamatsuHam_DCAM-TransposeMirrorY",
+    "HamamatsuHam_DCAM-CameraID",
+    "HamamatsuHam_DCAM-TransposeCorrection",
+    "ZeissFocusAxis-Velocity-Acceleration",
+    "ZeissReflectorTurret-Label",
+    "HamamatsuHam_DCAM-TRIGGER TIMES",
+    "ZeissCondenserAperture-Description",
+    "ZeissObjectiveTurret-Name",
+    "Core-Galvo",
+    "ZeissCondenserAperture-mm",
+    "COM1-Name",
+    "ZeissScope-Microscope Version",
+    "HamamatsuHam_DCAM-Camera Version",
+    "HamamatsuHam_DCAM-CameraName",
+    "ZeissObjectiveTurret-State"
+  ],
+  "HamamatsuHam_DCAM-TRIGGER ACTIVE": {
+    "PropVal": "EDGE",
+    "PropType": "String"
+  },
+  "PixelSize_um": 0.586,
+  "Core-ImageProcessor": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-ReadoutTime": {
+    "PropVal": "0.0154",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Module Version": {
+    "PropVal": "17.11.642.5373",
+    "PropType": "String"
+  },
+  "Exposure-ms": 100.00483691692352,
+  "COM1-DataBits": {
+    "PropVal": "8",
+    "PropType": "String"
+  },
+  "ZeissScope-Description": {
+    "PropVal": "Zeiss microscope CAN bus adapter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Bus": {
+    "PropVal": "USB3",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Label": {
+    "PropVal": "1-EC Plan-Neofluar 10x/0.30 M27",
+    "PropType": "String"
+  },
+  "Core-AutoShutter": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Position": {
+    "PropVal": "2.0020",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Move Mode": {
+    "PropVal": "Direct move to target",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-XYStage": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "userData": {"WaitInterval": {
+    "PropVal": 0,
+    "PropType": "Long"
+  }},
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE TIME UNITS": {
+    "PropVal": "MILLISECONDS",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Name": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissScope-Port": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "ZeissScope-Name": {
+    "PropVal": "ZeissScope",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeXY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissCondenserAperture-Name": {
+    "PropVal": "ZeissCondenserAperture",
+    "PropType": "String"
+  },
+  "COM1-Parity": {
+    "PropVal": "None",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Description": {
+    "PropVal": "Halogen Lamp intensity",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "ZeissScope-AnswerTimeOut": {
+    "PropVal": "250.0000",
+    "PropType": "String"
+  },
+  "Core-AutoFocus": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TriggerPolarity": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "COM1-StopBits": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Description": {
+    "PropVal": "Condenser Contrast",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT": {
+    "PropVal": "60000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeCorrection": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraID": {
+    "PropVal": "S/N: 000178",
+    "PropType": "String"
+  },
+  "Slice": 0,
+  "BitDepth": 12,
+  "receivedTime": "2018-03-23 11:25:38 +0000",
+  "ZeissCondenserAperture-mm": {
+    "PropVal": "13.3482",
+    "PropType": "String"
+  },
+  "ZeissScope-Microscope Version": {
+    "PropVal": "Application version: ",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Version": {
+    "PropVal": "1.11.B",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraName": {
+    "PropVal": "C11440-36U",
+    "PropType": "String"
+  },
+  "ChannelIndex": 0,
+  "ZeissObjectiveTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-Shutter": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "UUID": "bc6f511a-ac3a-4495-b3c5-00a679edafa2",
+  "ZeissReflectorTurret-Name": {
+    "PropVal": "ZeissReflectorTurret",
+    "PropType": "String"
+  },
+  "Core-Camera": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "Core-SLM": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "Core-TimeoutMs": {
+    "PropVal": "5000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ElapsedTime-ms": 1181,
+  "ZeissObjectiveTurret-Description": {
+    "PropVal": "Objective Turret",
+    "PropType": "String"
+  },
+  "COM1-Handshaking": {
+    "PropVal": "Off",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Name": {
+    "PropVal": "ZeissCondenserContrast",
+    "PropType": "String"
+  },
+  "Frame": 0,
+  "PositionIndex": 0,
+  "Core-ChannelGroup": {
+    "PropVal": "Channel",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-SENSOR MODE": {
+    "PropVal": "AREA",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Description": {
+    "PropVal": "Reflector Turret",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-DEFECT CORRECT MODE": {
+    "PropVal": "ON",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Name": {
+    "PropVal": "ZeissHalogenLamp",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Name": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Driver Version": {
+    "PropVal": "1.2.6.5373",
+    "PropType": "String"
+  },
+  "completeCoords": {
+    "position": 0,
+    "time": 0,
+    "z": 0,
+    "channel": 0
+  },
+  "HamamatsuHam_DCAM-TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE FULL RANGE": {
+    "PropVal": "DISABLE",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Name": {
+    "PropVal": "ZeissTransmittedLightShutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Binning": {
+    "PropVal": "1x1",
+    "PropType": "String"
+  },
+  "Binning": 1,
+  "ZeissHalogenLamp-Volt": {
+    "PropVal": "3.6135",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND": {
+    "PropVal": "LOW",
+    "PropType": "String"
+  },
+  "PixelType": "GRAY16",
+  "COM1-DelayBetweenCharsMs": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CONTRAST GAIN": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Exposure": {
+    "PropVal": "100.00",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Trigger": {
+    "PropVal": "NORMAL",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Description": {
+    "PropVal": "Hamamatsu device adapter 1.8.12.53",
+    "PropType": "String"
+  },
+  "COM1-BaudRate": {
+    "PropVal": "57600",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorX": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Velocity-Acceleration": {
+    "PropVal": "Default",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Label": {
+    "PropVal": "1-02 DAPI",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TRIGGER TIMES": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "FileName": "ScriptingWorkshopImages_11_MMStack_Pos0.ome.tif",
+  "ZeissCondenserAperture-Description": {
+    "PropVal": "Condenser Aperture",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Name": {
+    "PropVal": "ZeissObjectiveTurret",
+    "PropType": "String"
+  },
+  "Core-Galvo": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "COM1-Name": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "SliceIndex": 0,
+  "ZPositionUm": -50.625
+},
+"FrameKey-0-1-0": {
+  "HamamatsuHam_DCAM-TRIGGER SOURCE": {
+    "PropVal": "INTERNAL",
+    "PropType": "String"
+  },
+  "Core-Focus": {
+    "PropVal": "ZeissFocusAxis",
+    "PropType": "String"
+  },
+  "Core-Initialize": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "COM1-Verbose": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Label": {
+    "PropVal": "1-TL_Brightfield",
+    "PropType": "String"
+  },
+  "FrameIndex": 0,
+  "HamamatsuHam_DCAM-PixelType": {
+    "PropVal": "16bit",
+    "PropType": "String"
+  },
+  "COM1-Description": {
+    "PropVal": "Serial port driver (boost:asio)",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Description": {
+    "PropVal": "Zeiss Transmitted Light Shutter",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Description": {
+    "PropVal": "Zeiss Reflected Light Shutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE": {
+    "PropVal": "EXPOSURE",
+    "PropType": "String"
+  },
+  "ROI": "0-0-1920-1200",
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD": {
+    "PropVal": "0.0010",
+    "PropType": "String"
+  },
+  "COM1-AnswerTimeout": {
+    "PropVal": "500.0000",
+    "PropType": "String"
+  },
+  "Camera": "HamamatsuHam_DCAM",
+  "scopeDataKeys": [
+    "HamamatsuHam_DCAM-TRIGGER SOURCE",
+    "Core-Focus",
+    "Core-Shutter",
+    "ZeissCondenserContrast-State",
+    "Core-Initialize",
+    "COM1-Verbose",
+    "ZeissReflectorTurret-Name",
+    "Core-Camera",
+    "Core-SLM",
+    "Core-TimeoutMs",
+    "ZeissCondenserContrast-Label",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS",
+    "HamamatsuHam_DCAM-PixelType",
+    "ZeissObjectiveTurret-Description",
+    "COM1-Handshaking",
+    "COM1-Description",
+    "ZeissTransmittedLightShutter-Description",
+    "ZeissCondenserContrast-Name",
+    "ZeissReflectedLightShutter-Description",
+    "Core-ChannelGroup",
+    "HamamatsuHam_DCAM-SENSOR MODE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD",
+    "ZeissReflectorTurret-State",
+    "COM1-AnswerTimeout",
+    "ZeissReflectorTurret-Description",
+    "HamamatsuHam_DCAM-TRIGGER ACTIVE",
+    "ZeissHalogenLamp-Name",
+    "HamamatsuHam_DCAM-DEFECT CORRECT MODE",
+    "HamamatsuHam_DCAM-Name",
+    "Core-ImageProcessor",
+    "ZeissReflectedLightShutter-State",
+    "HamamatsuHam_DCAM-ReadoutTime",
+    "HamamatsuHam_DCAM-Driver Version",
+    "HamamatsuHam_DCAM-Module Version",
+    "HamamatsuHam_DCAM-TRIGGER DELAY",
+    "COM1-DataBits",
+    "ZeissScope-Description",
+    "HamamatsuHam_DCAM-Camera Bus",
+    "ZeissObjectiveTurret-Label",
+    "Core-AutoShutter",
+    "HamamatsuHam_DCAM-EXPOSURE FULL RANGE",
+    "ZeissFocusAxis-Position",
+    "ZeissFocusAxis-Move Mode",
+    "ZeissTransmittedLightShutter-State",
+    "ZeissTransmittedLightShutter-Name",
+    "HamamatsuHam_DCAM-Binning",
+    "ZeissHalogenLamp-Volt",
+    "Core-XYStage",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS",
+    "HamamatsuHam_DCAM-EXPOSURE TIME UNITS",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY",
+    "ZeissReflectedLightShutter-Name",
+    "COM1-DelayBetweenCharsMs",
+    "ZeissScope-Port",
+    "ZeissScope-Name",
+    "COM1-Parity",
+    "ZeissCondenserAperture-Name",
+    "HamamatsuHam_DCAM-TransposeXY",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY",
+    "ZeissHalogenLamp-Description",
+    "HamamatsuHam_DCAM-Exposure",
+    "HamamatsuHam_DCAM-CONTRAST GAIN",
+    "ZeissScope-AnswerTimeOut",
+    "COM1-StopBits",
+    "HamamatsuHam_DCAM-TriggerPolarity",
+    "HamamatsuHam_DCAM-Trigger",
+    "Core-AutoFocus",
+    "COM1-BaudRate",
+    "ZeissCondenserContrast-Description",
+    "HamamatsuHam_DCAM-Description",
+    "HamamatsuHam_DCAM-TransposeMirrorX",
+    "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT",
+    "HamamatsuHam_DCAM-TransposeMirrorY",
+    "HamamatsuHam_DCAM-CameraID",
+    "HamamatsuHam_DCAM-TransposeCorrection",
+    "ZeissFocusAxis-Velocity-Acceleration",
+    "ZeissReflectorTurret-Label",
+    "HamamatsuHam_DCAM-TRIGGER TIMES",
+    "ZeissCondenserAperture-Description",
+    "ZeissObjectiveTurret-Name",
+    "Core-Galvo",
+    "ZeissCondenserAperture-mm",
+    "COM1-Name",
+    "ZeissScope-Microscope Version",
+    "HamamatsuHam_DCAM-Camera Version",
+    "HamamatsuHam_DCAM-CameraName",
+    "ZeissObjectiveTurret-State"
+  ],
+  "HamamatsuHam_DCAM-TRIGGER ACTIVE": {
+    "PropVal": "EDGE",
+    "PropType": "String"
+  },
+  "PixelSize_um": 0.586,
+  "Core-ImageProcessor": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-ReadoutTime": {
+    "PropVal": "0.0154",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Module Version": {
+    "PropVal": "17.11.642.5373",
+    "PropType": "String"
+  },
+  "Exposure-ms": 100.00483691692352,
+  "COM1-DataBits": {
+    "PropVal": "8",
+    "PropType": "String"
+  },
+  "ZeissScope-Description": {
+    "PropVal": "Zeiss microscope CAN bus adapter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Bus": {
+    "PropVal": "USB3",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Label": {
+    "PropVal": "1-EC Plan-Neofluar 10x/0.30 M27",
+    "PropType": "String"
+  },
+  "Core-AutoShutter": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Position": {
+    "PropVal": "2.0020",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Move Mode": {
+    "PropVal": "Direct move to target",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-XYStage": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "userData": {},
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE TIME UNITS": {
+    "PropVal": "MILLISECONDS",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Name": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissScope-Port": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "ZeissScope-Name": {
+    "PropVal": "ZeissScope",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeXY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissCondenserAperture-Name": {
+    "PropVal": "ZeissCondenserAperture",
+    "PropType": "String"
+  },
+  "COM1-Parity": {
+    "PropVal": "None",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Description": {
+    "PropVal": "Halogen Lamp intensity",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "ZeissScope-AnswerTimeOut": {
+    "PropVal": "250.0000",
+    "PropType": "String"
+  },
+  "Core-AutoFocus": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TriggerPolarity": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "COM1-StopBits": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Description": {
+    "PropVal": "Condenser Contrast",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT": {
+    "PropVal": "60000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeCorrection": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraID": {
+    "PropVal": "S/N: 000178",
+    "PropType": "String"
+  },
+  "Slice": 0,
+  "BitDepth": 12,
+  "receivedTime": "2018-03-23 11:25:39 +0000",
+  "ZeissCondenserAperture-mm": {
+    "PropVal": "13.3482",
+    "PropType": "String"
+  },
+  "ZeissScope-Microscope Version": {
+    "PropVal": "Application version: ",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Version": {
+    "PropVal": "1.11.B",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraName": {
+    "PropVal": "C11440-36U",
+    "PropType": "String"
+  },
+  "ChannelIndex": 1,
+  "ZeissObjectiveTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-Shutter": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "UUID": "17c4e1b4-4dc5-4e80-a8b6-1fdc5b654ac1",
+  "ZeissReflectorTurret-Name": {
+    "PropVal": "ZeissReflectorTurret",
+    "PropType": "String"
+  },
+  "Core-Camera": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "Core-SLM": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "Core-TimeoutMs": {
+    "PropVal": "5000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ElapsedTime-ms": 2202,
+  "ZeissObjectiveTurret-Description": {
+    "PropVal": "Objective Turret",
+    "PropType": "String"
+  },
+  "COM1-Handshaking": {
+    "PropVal": "Off",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Name": {
+    "PropVal": "ZeissCondenserContrast",
+    "PropType": "String"
+  },
+  "Frame": 0,
+  "PositionIndex": 0,
+  "Core-ChannelGroup": {
+    "PropVal": "Channel",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-SENSOR MODE": {
+    "PropVal": "AREA",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Description": {
+    "PropVal": "Reflector Turret",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-DEFECT CORRECT MODE": {
+    "PropVal": "ON",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Name": {
+    "PropVal": "ZeissHalogenLamp",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Name": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Driver Version": {
+    "PropVal": "1.2.6.5373",
+    "PropType": "String"
+  },
+  "completeCoords": {
+    "position": 0,
+    "time": 0,
+    "z": 0,
+    "channel": 1
+  },
+  "HamamatsuHam_DCAM-TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE FULL RANGE": {
+    "PropVal": "DISABLE",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Name": {
+    "PropVal": "ZeissTransmittedLightShutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Binning": {
+    "PropVal": "1x1",
+    "PropType": "String"
+  },
+  "Binning": 1,
+  "ZeissHalogenLamp-Volt": {
+    "PropVal": "3.6135",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND": {
+    "PropVal": "LOW",
+    "PropType": "String"
+  },
+  "PixelType": "GRAY16",
+  "COM1-DelayBetweenCharsMs": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CONTRAST GAIN": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Exposure": {
+    "PropVal": "100.00",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Trigger": {
+    "PropVal": "NORMAL",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Description": {
+    "PropVal": "Hamamatsu device adapter 1.8.12.53",
+    "PropType": "String"
+  },
+  "COM1-BaudRate": {
+    "PropVal": "57600",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorX": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Velocity-Acceleration": {
+    "PropVal": "Default",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Label": {
+    "PropVal": "2-09 FITC",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TRIGGER TIMES": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "FileName": "ScriptingWorkshopImages_11_MMStack_Pos0.ome.tif",
+  "ZeissCondenserAperture-Description": {
+    "PropVal": "Condenser Aperture",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Name": {
+    "PropVal": "ZeissObjectiveTurret",
+    "PropType": "String"
+  },
+  "Core-Galvo": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "COM1-Name": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "SliceIndex": 0,
+  "ZPositionUm": -50.625
+},
+"FrameKey-0-2-0": {
+  "HamamatsuHam_DCAM-TRIGGER SOURCE": {
+    "PropVal": "INTERNAL",
+    "PropType": "String"
+  },
+  "Core-Focus": {
+    "PropVal": "ZeissFocusAxis",
+    "PropType": "String"
+  },
+  "Core-Initialize": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "COM1-Verbose": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Label": {
+    "PropVal": "1-TL_Brightfield",
+    "PropType": "String"
+  },
+  "FrameIndex": 0,
+  "HamamatsuHam_DCAM-PixelType": {
+    "PropVal": "16bit",
+    "PropType": "String"
+  },
+  "COM1-Description": {
+    "PropVal": "Serial port driver (boost:asio)",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Description": {
+    "PropVal": "Zeiss Transmitted Light Shutter",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Description": {
+    "PropVal": "Zeiss Reflected Light Shutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE": {
+    "PropVal": "EXPOSURE",
+    "PropType": "String"
+  },
+  "ROI": "0-0-1920-1200",
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD": {
+    "PropVal": "0.0010",
+    "PropType": "String"
+  },
+  "COM1-AnswerTimeout": {
+    "PropVal": "500.0000",
+    "PropType": "String"
+  },
+  "Camera": "HamamatsuHam_DCAM",
+  "scopeDataKeys": [
+    "HamamatsuHam_DCAM-TRIGGER SOURCE",
+    "Core-Focus",
+    "Core-Shutter",
+    "ZeissCondenserContrast-State",
+    "Core-Initialize",
+    "COM1-Verbose",
+    "ZeissReflectorTurret-Name",
+    "Core-Camera",
+    "Core-SLM",
+    "Core-TimeoutMs",
+    "ZeissCondenserContrast-Label",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS",
+    "HamamatsuHam_DCAM-PixelType",
+    "ZeissObjectiveTurret-Description",
+    "COM1-Handshaking",
+    "COM1-Description",
+    "ZeissTransmittedLightShutter-Description",
+    "ZeissCondenserContrast-Name",
+    "ZeissReflectedLightShutter-Description",
+    "Core-ChannelGroup",
+    "HamamatsuHam_DCAM-SENSOR MODE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER SOURCE",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD",
+    "ZeissReflectorTurret-State",
+    "COM1-AnswerTimeout",
+    "ZeissReflectorTurret-Description",
+    "HamamatsuHam_DCAM-TRIGGER ACTIVE",
+    "ZeissHalogenLamp-Name",
+    "HamamatsuHam_DCAM-DEFECT CORRECT MODE",
+    "HamamatsuHam_DCAM-Name",
+    "Core-ImageProcessor",
+    "ZeissReflectedLightShutter-State",
+    "HamamatsuHam_DCAM-ReadoutTime",
+    "HamamatsuHam_DCAM-Driver Version",
+    "HamamatsuHam_DCAM-Module Version",
+    "HamamatsuHam_DCAM-TRIGGER DELAY",
+    "COM1-DataBits",
+    "ZeissScope-Description",
+    "HamamatsuHam_DCAM-Camera Bus",
+    "ZeissObjectiveTurret-Label",
+    "Core-AutoShutter",
+    "HamamatsuHam_DCAM-EXPOSURE FULL RANGE",
+    "ZeissFocusAxis-Position",
+    "ZeissFocusAxis-Move Mode",
+    "ZeissTransmittedLightShutter-State",
+    "ZeissTransmittedLightShutter-Name",
+    "HamamatsuHam_DCAM-Binning",
+    "ZeissHalogenLamp-Volt",
+    "Core-XYStage",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS",
+    "HamamatsuHam_DCAM-EXPOSURE TIME UNITS",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY",
+    "ZeissReflectedLightShutter-Name",
+    "COM1-DelayBetweenCharsMs",
+    "ZeissScope-Port",
+    "ZeissScope-Name",
+    "COM1-Parity",
+    "ZeissCondenserAperture-Name",
+    "HamamatsuHam_DCAM-TransposeXY",
+    "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY",
+    "ZeissHalogenLamp-Description",
+    "HamamatsuHam_DCAM-Exposure",
+    "HamamatsuHam_DCAM-CONTRAST GAIN",
+    "ZeissScope-AnswerTimeOut",
+    "COM1-StopBits",
+    "HamamatsuHam_DCAM-TriggerPolarity",
+    "HamamatsuHam_DCAM-Trigger",
+    "Core-AutoFocus",
+    "COM1-BaudRate",
+    "ZeissCondenserContrast-Description",
+    "HamamatsuHam_DCAM-Description",
+    "HamamatsuHam_DCAM-TransposeMirrorX",
+    "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT",
+    "HamamatsuHam_DCAM-TransposeMirrorY",
+    "HamamatsuHam_DCAM-CameraID",
+    "HamamatsuHam_DCAM-TransposeCorrection",
+    "ZeissFocusAxis-Velocity-Acceleration",
+    "ZeissReflectorTurret-Label",
+    "HamamatsuHam_DCAM-TRIGGER TIMES",
+    "ZeissCondenserAperture-Description",
+    "ZeissObjectiveTurret-Name",
+    "Core-Galvo",
+    "ZeissCondenserAperture-mm",
+    "COM1-Name",
+    "ZeissScope-Microscope Version",
+    "HamamatsuHam_DCAM-Camera Version",
+    "HamamatsuHam_DCAM-CameraName",
+    "ZeissObjectiveTurret-State"
+  ],
+  "HamamatsuHam_DCAM-TRIGGER ACTIVE": {
+    "PropVal": "EDGE",
+    "PropType": "String"
+  },
+  "PixelSize_um": 0.586,
+  "Core-ImageProcessor": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-ReadoutTime": {
+    "PropVal": "0.0154",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Module Version": {
+    "PropVal": "17.11.642.5373",
+    "PropType": "String"
+  },
+  "Exposure-ms": 1000.0119209289551,
+  "COM1-DataBits": {
+    "PropVal": "8",
+    "PropType": "String"
+  },
+  "ZeissScope-Description": {
+    "PropVal": "Zeiss microscope CAN bus adapter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Bus": {
+    "PropVal": "USB3",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Label": {
+    "PropVal": "1-EC Plan-Neofluar 10x/0.30 M27",
+    "PropType": "String"
+  },
+  "Core-AutoShutter": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Position": {
+    "PropVal": "2.0020",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Move Mode": {
+    "PropVal": "Direct move to target",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-XYStage": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "userData": {},
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE TIME UNITS": {
+    "PropVal": "MILLISECONDS",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER DELAY UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-Name": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissScope-Port": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "ZeissScope-Name": {
+    "PropVal": "ZeissScope",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeXY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissCondenserAperture-Name": {
+    "PropVal": "ZeissCondenserAperture",
+    "PropType": "String"
+  },
+  "COM1-Parity": {
+    "PropVal": "None",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Description": {
+    "PropVal": "Halogen Lamp intensity",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER POLARITY": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "ZeissScope-AnswerTimeOut": {
+    "PropVal": "250.0000",
+    "PropType": "String"
+  },
+  "Core-AutoFocus": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TriggerPolarity": {
+    "PropVal": "NEGATIVE",
+    "PropType": "String"
+  },
+  "COM1-StopBits": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Description": {
+    "PropVal": "Condenser Contrast",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-MINIMUM ACQUISITION TIMEOUT": {
+    "PropVal": "60000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeCorrection": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraID": {
+    "PropVal": "S/N: 000178",
+    "PropType": "String"
+  },
+  "Slice": 0,
+  "BitDepth": 12,
+  "receivedTime": "2018-03-23 11:25:41 +0000",
+  "ZeissCondenserAperture-mm": {
+    "PropVal": "13.3482",
+    "PropType": "String"
+  },
+  "ZeissScope-Microscope Version": {
+    "PropVal": "Application version: ",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Camera Version": {
+    "PropVal": "1.11.B",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CameraName": {
+    "PropVal": "C11440-36U",
+    "PropType": "String"
+  },
+  "ChannelIndex": 2,
+  "ZeissObjectiveTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "Core-Shutter": {
+    "PropVal": "ZeissReflectedLightShutter",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "UUID": "07e0c10a-530b-4406-b9d2-50cb34ba30f9",
+  "ZeissReflectorTurret-Name": {
+    "PropVal": "ZeissReflectorTurret",
+    "PropType": "String"
+  },
+  "Core-Camera": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "Core-SLM": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "Core-TimeoutMs": {
+    "PropVal": "5000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER PERIOD UNITS": {
+    "PropVal": "SECONDS",
+    "PropType": "String"
+  },
+  "ElapsedTime-ms": 4027,
+  "ZeissObjectiveTurret-Description": {
+    "PropVal": "Objective Turret",
+    "PropType": "String"
+  },
+  "COM1-Handshaking": {
+    "PropVal": "Off",
+    "PropType": "String"
+  },
+  "ZeissCondenserContrast-Name": {
+    "PropVal": "ZeissCondenserContrast",
+    "PropType": "String"
+  },
+  "Frame": 0,
+  "PositionIndex": 0,
+  "Core-ChannelGroup": {
+    "PropVal": "Channel",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-SENSOR MODE": {
+    "PropVal": "AREA",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Description": {
+    "PropVal": "Reflector Turret",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-DEFECT CORRECT MODE": {
+    "PropVal": "ON",
+    "PropType": "String"
+  },
+  "ZeissHalogenLamp-Name": {
+    "PropVal": "ZeissHalogenLamp",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Name": {
+    "PropVal": "HamamatsuHam_DCAM",
+    "PropType": "String"
+  },
+  "ZeissReflectedLightShutter-State": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Driver Version": {
+    "PropVal": "1.2.6.5373",
+    "PropType": "String"
+  },
+  "completeCoords": {
+    "position": 0,
+    "time": 0,
+    "z": 0,
+    "channel": 2
+  },
+  "HamamatsuHam_DCAM-TRIGGER DELAY": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-EXPOSURE FULL RANGE": {
+    "PropVal": "DISABLE",
+    "PropType": "String"
+  },
+  "ZeissTransmittedLightShutter-Name": {
+    "PropVal": "ZeissTransmittedLightShutter",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Binning": {
+    "PropVal": "1x1",
+    "PropType": "String"
+  },
+  "Binning": 1,
+  "ZeissHalogenLamp-Volt": {
+    "PropVal": "3.6135",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-OUTPUT TRIGGER KIND": {
+    "PropVal": "LOW",
+    "PropType": "String"
+  },
+  "PixelType": "GRAY16",
+  "COM1-DelayBetweenCharsMs": {
+    "PropVal": "0.0000",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-CONTRAST GAIN": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Exposure": {
+    "PropVal": "1000.01",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Trigger": {
+    "PropVal": "NORMAL",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-Description": {
+    "PropVal": "Hamamatsu device adapter 1.8.12.53",
+    "PropType": "String"
+  },
+  "COM1-BaudRate": {
+    "PropVal": "57600",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorX": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TransposeMirrorY": {
+    "PropVal": "0",
+    "PropType": "String"
+  },
+  "ZeissFocusAxis-Velocity-Acceleration": {
+    "PropVal": "Default",
+    "PropType": "String"
+  },
+  "ZeissReflectorTurret-Label": {
+    "PropVal": "3-14 Cy 3.5",
+    "PropType": "String"
+  },
+  "HamamatsuHam_DCAM-TRIGGER TIMES": {
+    "PropVal": "1",
+    "PropType": "String"
+  },
+  "FileName": "ScriptingWorkshopImages_11_MMStack_Pos0.ome.tif",
+  "ZeissCondenserAperture-Description": {
+    "PropVal": "Condenser Aperture",
+    "PropType": "String"
+  },
+  "ZeissObjectiveTurret-Name": {
+    "PropVal": "ZeissObjectiveTurret",
+    "PropType": "String"
+  },
+  "Core-Galvo": {
+    "PropVal": "",
+    "PropType": "String"
+  },
+  "COM1-Name": {
+    "PropVal": "COM1",
+    "PropType": "String"
+  },
+  "SliceIndex": 0,
+  "ZPositionUm": -50.625
+}
+}

@@ -1,0 +1,31 @@
+{
+ "histogramUpdateRate": 0,
+ "shouldCalculateStdDev": false,
+ "shouldScaleWithROI": true,
+ "shouldUseLogScale": false,
+ "shouldSyncChannels": false,
+ "channelColorMode": 0,
+ "magnification": 0.3333333333333333,
+ "extremaPercentage": 0,
+ "shouldAutostretch": true,
+ "ChColors": [],
+ "ChContrastMax": [
+  3137,
+  4095,
+  4095
+ ],
+ "ChContrastMin": [
+  137,
+  59,
+  193
+ ],
+ "animationFPS_Double": 10,
+ "bitDepthIndices": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ]
+}
+==============END OF RECORD==============
