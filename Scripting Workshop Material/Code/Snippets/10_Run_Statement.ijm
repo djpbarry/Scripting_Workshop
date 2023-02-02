@@ -23,13 +23,13 @@ run("Analyze Particles...", "  show=Outlines display");
 
 //-------------- Example 4 ------------------
 
-inputImage = "E:/OneDrive - The Francis Crick Institute/Training/Scripting Workshop/Scripting Workshop Material/Images/ScriptingWorkshopImages_2_MMStack_Pos0.ome.tif";
+inputImage = "C:/OneDrive - The Francis Crick Institute/Training/Scripting Workshop/Scripting Workshop Material/Images/ScriptingWorkshopImages_2_MMStack_Pos0.ome.tif";
 
 run("Bio-Formats Importer", "open=" + inputImage);
 
 
 //-------------- Example 5 ------------------
 
-inputImage = "E:/OneDrive - The Francis Crick Institute/Training/Scripting Workshop/Scripting Workshop Material/Images/ScriptingWorkshopImages_2_MMStack_Pos0.ome.tif";
+inputImage = "C:/Users/barryd/OneDrive - The Francis Crick Institute/Training/Scripting Workshop/Scripting Workshop Material/Images/ScriptingWorkshopImages_2_MMStack_Pos0.ome.tif";
 
 run("Bio-Formats Importer", "open=[" + inputImage + "]");
